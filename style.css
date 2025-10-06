@@ -1,0 +1,15 @@
+
+body { margin: 0; font-family: Arial, sans-serif; background:#111; color:#eee; }
+#wrapper { background:#1a1a1a; min-width:320px; max-width:1000px; margin:0 auto; padding:16px; }
+
+header { background:#222; padding:12px; display:flex; align-items:center; gap:12px; }
+#logo { width:64px; height:64px; object-fit:contain; background:#333; }
+
+nav { background:#262626; margin:12px 0; }
+nav ul { list-style:none; margin:0; padding:8px; display:flex; gap:12px; }
+nav a { color:#ddd; text-decoration:none; padding:6px 10px; background:#333; }
+
+main { background:#202020; display:flex; gap:16px; padding:12px; }
+main > section, main > aside { background:#2a2a2a; padding:12px; flex:1; }
+
+footer { background:#191919; padding:10px; text-align:center; }
